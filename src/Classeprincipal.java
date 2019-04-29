@@ -102,6 +102,35 @@ public static void main (String[] args){
      System.out.println("Fabricação do Carro:" + carro3.fabricacao);
      System.out.println("largura do Carro:" + carro3.largura);
      System.out.println("Peso do Carro:" + carro3.peso);
+     
+     Carro carro4 = new Carro();
+    
+    System.out.print("Digite o nome do Carro:");
+    carro4.nome = scan.nextLine();
+    
+    System.out.print("Digite a marca do Carro:");
+    carro4.marca = scan.nextLine();
+   
+    System.out.print("Digite a cor do Carro:");
+    carro4.cor = scan.nextLine();
+   
+    System.out.print("Digite o ano de fabricação do Carro:");
+    carro4.fabricacao = scan.nextLine();
+    
+    System.out.print("Digite a largura do Carro:");
+    carro4.largura = scan.nextLine();
+    
+    System.out.print("Digite o peso do Carro:");
+    carro4.peso = scan.nextLine();
+    
+     System.out.println("Nome do Carro:" + carro4.nome);
+     System.out.println("Marca do Carro:" + carro4.marca);
+     System.out.println("Cor do Carro:" + carro4.cor);
+     System.out.println("Fabricação do Carro:" + carro4.fabricacao);
+     System.out.println("largura do Carro:" + carro4.largura);
+     System.out.println("Peso do Carro:" + carro4.peso);
+     
+     
    
     }   
 }
